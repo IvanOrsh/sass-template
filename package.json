@@ -2,7 +2,7 @@
   "name": "sass-template",
   "version": "1.0.0",
   "description": "SASS compile|autoprefix|minimize and live-reload dev server using Browsersync for static HTML",
-  "main": "index.js",
+  "main": "public/index.html",
   "scripts": {
     "build:sass": "sass --no-source-map src/sass:public/css",
     "copy:assets": "copyfiles -u 1 ./src/assets/**/* public",
