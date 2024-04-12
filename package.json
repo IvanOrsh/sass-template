@@ -1,0 +1,17 @@
+{
+  "name": "sass-template",
+  "version": "1.0.0",
+  "description": "SASS compile|autoprefix|minimize and live-reload dev server using Browsersync for static HTML",
+  "main": "index.js",
+  "scripts": {
+    "build:sass": "sass --no-source-map src/sass:public/css",
+    "watch:sass": "sass --watch src/sass:public/css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.75.0"
+  }
+}
